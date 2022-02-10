@@ -1,0 +1,122 @@
+@import url(//db.onlinewebfonts.com/c/0fddb08144cea533dcd3d39388b7ffbe?family=GrandSlang+Roman);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul,
+ol{
+  list-style: none;
+}
+
+
+
+body {
+  min-height: 100vh;
+  display: flex;
+  background: #272727;
+  color: #EEE7E1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-left{
+  height: 100vh;
+  display: flex;
+  width: 6%;
+  padding-top: 5%;
+  padding-bottom: 30px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nav-left-item{
+  margin-bottom: 40px;
+  padding-right: 15px;
+  padding-left: 20px;
+  transform: rotate(-90deg);
+}
+
+.social-link{
+  text-decoration: none;
+  color: #EEE7E1;
+  width: 100%;
+  font-size: 15px;
+  line-height: 1.2em;
+}
+
+.social-link:hover{
+  text-decoration: line-through;
+}
+.nav-line{
+  width: 1px;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 80px;
+  background: #EEE7E1;
+}
+
+.nav-copyright{
+  position: absolute;
+  inset: auto 0 3% 0;
+  width: 110px;
+}
+
+.nav-middle{
+  width: 25%;
+  height: 100vh;
+  font-size: 18px;
+  line-height: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 25%;
+  margin-left:10%;
+}
+
+.name{
+  font-weight: 400;
+}
+
+.details{
+  font-weight: 100;
+}
+
+.nav-right{
+  padding-top: 5%;
+  margin-left: 5%;
+}
+
+.nav-right-item{
+  transition: all 0.5s ease-out;
+}
+
+.nav-right-item:hover{
+  transform: translateX(5px);
+  font-style: italic;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: #EEE7E1;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 1.2em;
+  font-family: GrandSlang Roman, sans-serif;
+}
+
